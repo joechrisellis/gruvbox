@@ -547,6 +547,8 @@ call s:HL('GruvboxPurpleUnderline', s:none, s:none, s:undercurl, s:gb.purple)
 call s:HL('GruvboxAquaUnderline', s:none, s:none, s:undercurl, s:gb.aqua)
 call s:HL('GruvboxOrangeUnderline', s:none, s:none, s:undercurl, s:gb.orange)
 
+call s:HL('GruvboxTextHint', s:gb.fg1, s:gb.bg2)
+
 " }}}
 
 " Vanilla colorscheme ---------------------------------------------------------
@@ -801,9 +803,9 @@ if has("nvim")
   hi! link DiagnosticSignHint GruvboxAquaSign
   hi! link DiagnosticUnderlineHint GruvboxAquaUnderline
 
-  hi! link LspReferenceText GruvboxYellowBold
-  hi! link LspReferenceRead GruvboxYellowBold
-  hi! link LspReferenceWrite GruvboxOrangeBold
+  hi! link LspReferenceText GruvboxTextHint
+  hi! link LspReferenceRead GruvboxTextHint
+  hi! link LspReferenceWrite GruvboxTextHint
 
   hi! link LspCodeLens GruvboxGray
 
