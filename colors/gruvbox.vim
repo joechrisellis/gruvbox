@@ -812,6 +812,7 @@ if has("nvim")
   hi! link LspReferenceRead GruvboxTextHint
   hi! link LspReferenceWrite GruvboxTextHint
   hi! link LspInlayHint GruvboxTextHint
+  hi! link LspSignatureActiveParameter GruvboxBlueBold
 
   hi! link LspCodeLens GruvboxGray
 
